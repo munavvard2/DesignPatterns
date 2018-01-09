@@ -2,7 +2,7 @@
 
 class FlyWithRocket implements FlyBehavior{
     public function fly(){
-        echo "Wohoo this duck Fly with rocket.";
+        echo "Wohoo this duck Fly with rocket.<br/>";
     }
     
 }

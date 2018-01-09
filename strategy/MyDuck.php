@@ -1,7 +1,4 @@
 <?php
-include("Duck.php");
-include("importer.php");
-
 
 class MyDuck extends Duck{
     function __construct(){
@@ -10,6 +7,6 @@ class MyDuck extends Duck{
     }
 
     function display(){
-        echo "I am MyDuck";
+        echo "I am MyDuck<br/>";
     }
 }

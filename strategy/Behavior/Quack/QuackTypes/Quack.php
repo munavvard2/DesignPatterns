@@ -5,7 +5,7 @@ class Quack implements QuackBehavior{
         
     }
     public function Quack(){
-        echo "this duck Quack";
+        echo "this duck Quack<br/>";
     }
 }
 ?>
