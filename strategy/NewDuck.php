@@ -9,4 +9,4 @@ class NewDuck extends Duck{
     function display(){
         echo "I am NewDuck<br/>";
     }
-}
+} 

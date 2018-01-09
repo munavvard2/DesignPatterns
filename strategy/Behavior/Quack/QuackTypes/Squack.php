@@ -5,5 +5,5 @@ class Squack implements QuackBehavior{
         echo "this duck Squack<br/>";
     }
     
-}
+} 
 ?>

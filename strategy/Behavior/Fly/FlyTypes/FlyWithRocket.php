@@ -5,5 +5,5 @@ class FlyWithRocket implements FlyBehavior{
         echo "Wohoo this duck Fly with rocket.<br/>";
     }
     
-}
+} 
 ?>

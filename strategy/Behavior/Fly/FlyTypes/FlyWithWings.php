@@ -5,5 +5,5 @@ class FlyWthWings implements FlyBehavior{
         echo "this duck flies with wings.<br/>";
     }
     
-}
+} 
 ?>

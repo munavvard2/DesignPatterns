@@ -23,4 +23,4 @@ foreach (glob("Behavior/Quack/*.php") as $filename)
 foreach (glob("Behavior/Quack/QuackTypes/*.php") as $filename)
 {
     include $filename;
-}
+} 

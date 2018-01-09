@@ -16,10 +16,18 @@ abstract class Duck{
         $this->quackBehavior->quack(); // method delegates that will call the quack method of current class object
     }
 
+    public function setFlyBehavior(FlyBehavior $flyBehavior){
+        $this->flyBehavior = $flyBehavior;
+    }
+
+    public function setQuackBehavior(QuackBehavior $quackBehavior){
+        $this->quackBehavior = $quackBehavior;
+    }
+
     public function swim(){
         echo "Swimming";
     }
 
-}
+} 
 
 ?>

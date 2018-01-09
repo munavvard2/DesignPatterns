@@ -5,5 +5,5 @@ class DoNotQuack implements QuackBehavior{
         echo "this duck Don't Quack at all.<br/>";
     }
     
-}
+} 
 ?>
